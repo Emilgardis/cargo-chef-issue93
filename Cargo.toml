@@ -1,0 +1,10 @@
+[package]
+name = "chef-test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# changing this to the normal `libc = "0.2.132"` makes cargo-chef happy
+libc = { version = "0.2.132" }
